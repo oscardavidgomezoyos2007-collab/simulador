@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simulador de Crédito</title>
     <link rel="stylesheet" href="simulador.css">
+
 </head>
 <body>
 
@@ -18,7 +19,7 @@
         <label for="txtEgresos">Egresos:</label>
         <input type="text" id="txtEgresos">
 
-        <p>Disponible: <span id="spnDisponible"></span></p>
+        <p>Disponible: <span id="spnDisponible">0</span></p>
         <p>Capacidad de pago mensual: <span id="spnCapacidadPago"></span></p>
 
         <h2>Solicitud de crédito</h2>
@@ -41,6 +42,7 @@
             <button id="btnReiniciar">Reiniciar</button>
         </div>
     </div>
-
+     <script src="simulador.js"></script>
+     <script src="funciones.js"></script>
 </body>
 </html>
